@@ -1,7 +1,7 @@
 package com.ruanlopes.swiperefreshlayout.helper;
 
 /**
- * Created by Ruan_Lopes on 15-06-23.
+ * Created by Ruan Souza on 23/05/15.
  */
 
 public class Movie {

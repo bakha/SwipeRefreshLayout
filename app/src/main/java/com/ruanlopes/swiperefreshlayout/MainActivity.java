@@ -21,6 +21,9 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Ruan Souza on 23/05/15.
+ */
 
 public class MainActivity extends ActionBarActivity implements SwipeRefreshLayout.OnRefreshListener {
 
@@ -54,6 +57,7 @@ public class MainActivity extends ActionBarActivity implements SwipeRefreshLayou
          * Showing Swipe Refresh animation on activity create
          * As animation won't start on onCreate, post runnable is used
          */
+
         swipeRefreshLayout.post(new Runnable() {
                                     @Override
                                     public void run() {
@@ -137,4 +141,5 @@ public class MainActivity extends ActionBarActivity implements SwipeRefreshLayou
         // Adding request to request queue
         MyApplication.getInstance().addToRequestQueue(req);
     }
+
 }

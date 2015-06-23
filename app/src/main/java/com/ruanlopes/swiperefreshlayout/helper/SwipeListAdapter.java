@@ -13,8 +13,9 @@ import com.ruanlopes.swiperefreshlayout.R;
 
 import java.util.List;
 
+
 /**
- * Created by Ruan_Lopes on 15-06-23.
+ * Created by Ruan Souza on 23/05/15.
  */
 
 public class SwipeListAdapter extends BaseAdapter {
